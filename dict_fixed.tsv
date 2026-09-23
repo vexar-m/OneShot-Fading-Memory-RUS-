@@ -9684,7 +9684,7 @@ Map346@events[4]@pages.0@list.47@parameters.0	@niko_warm And I have the sun itse
 Map346@events[4]@pages.0@list.68@parameters.0	@niko5 It looks scary and dangerous...	@niko5 Это выглядит страшно и опасно...
 Map346@events[4]@pages.0@list.69@parameters.0	@niko6 I probably shouldn't go there...	@niko6 Мне, наверное, не стоит туда идти...
 Map348@events[16]@pages.0@list.3@parameters.0	@niko It won't turn on.	@niko Оно не включается.
-Map348@events[16]@pages.0@list.12@parameters.0	Input Password:\\n(Nag a ram in the mirror.)	Введите пароль:\\n(Барана в зеркале.)
+Map348@events[16]@pages.0@list.12@parameters.0	Input Password:\\n(Nag a ram in the mirror.)	Введите пароль:\n(Анаграмма в зеркале.)
 Map348@events[16]@pages.0@list.23@parameters.0	\\c[2]Access Granted.	\\c[2]Доступ разрешён.
 Map348@events[16]@pages.0@list.34@parameters.0	@desktop You brought me here.	@desktop Ты привёл меня сюда.
 Map348@events[16]@pages.0@list.36@parameters.0	@desktop Resurrected me.	@desktop Воскресил меня.
@@ -9760,7 +9760,7 @@ Map348@events[13]@pages.0@list.14@parameters.0	@niko_speak Oh, this book stands 
 Map348@events[13]@pages.0@list.19@parameters.0	@niko_eyeclosed It's still too dark to read.	@niko_eyeclosed Всё ещё слишком темно, чтобы читать.
 Map348@events[2]@pages.2@list.0@parameters.0	@niko It's fairly comfy.	@niko Довольно уютно.
 Map348@events[8]@pages.0@list.3@parameters.0	@niko It won't turn on.	@niko Оно не включается.
-Map348@events[8]@pages.0@list.12@parameters.0	Input Password:\\n(Nag a ram in the mirror.)	Введите пароль:\\n(Барана в зеркале.)
+Map348@events[8]@pages.0@list.12@parameters.0	Input Password:\\n(Nag a ram in the mirror.)	Введите пароль:\n(Анаграмма в зеркале.)
 Map348@events[8]@pages.0@list.23@parameters.0	\\c[2]Access Granted.	\\c[2]Доступ разрешён.
 Map348@events[8]@pages.0@list.34@parameters.0	@desktop You brought me here.	@desktop Ты привёл меня сюда.
 Map348@events[8]@pages.0@list.36@parameters.0	@desktop Resurrected me.	@desktop Воскресил меня.
