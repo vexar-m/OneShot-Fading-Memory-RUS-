@@ -1,5 +1,4 @@
-# path	EN	RU
-Map-99@events[2]@pages.0@list.0@parameters.0	@two_distressed_meow [Please respond...]	@two_distressed_meow [ПОЖАЛУЙСТА, ОТВЕТЬТЕ...]
+﻿Map-99@events[2]@pages.0@list.0@parameters.0	@two_distressed_meow [Please respond...]	@two_distressed_meow [ПОЖАЛУЙСТА, ОТВЕТЬТЕ...]
 Map001@events[1]@pages.0@list.6@parameters.0	@ed [What is... ModShot?]	@ed [Что такое... ModShot?]
 Map001@events[1]@pages.0@list.7@parameters.0	@ed [I need it to run and yet I don't have it...]	@ed [Мне нужно это для запуска, но у меня этого нет...]
 Map001@events[1]@pages.0@list.8@parameters.0	@ed [Either something horifically wrong has gone on here, or...]	@ed [Либо здесь произошло что-то ужасное, либо...]

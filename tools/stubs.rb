@@ -69,7 +69,7 @@ def rx_load(path)
   force_utf8(Marshal.load(data))
 end
 def rx_save(path, obj)
-  File.binwrite(path, Zlib::Deflate.deflate(Marshal.dump(obj)))
+  File.binwrite(path, Marshal.dump(obj))
 end
 def esc(s)
   s = s.scrub unless s.valid_encoding?
