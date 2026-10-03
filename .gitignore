@@ -1,0 +1,6 @@
+﻿tools/
+build/
+*.tsv
+auto_translate.ps1
+z_font_log.txt
+iseq_strings.tsv
