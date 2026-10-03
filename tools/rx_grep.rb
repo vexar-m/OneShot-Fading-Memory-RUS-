@@ -1,12 +1,14 @@
 require_relative 'stubs'
 pat = Regexp.new(ARGV[0], Regexp::IGNORECASE)
 dir = ARGV[1] || 'Data'
-Dir.glob(File.join(dir, '*.rxdata')).sort.each do |f|
+files = Dir.glob(File.join(dir.tr('\\', '/'), '*.rxdata')).sort
+warn "files: #{files.length}"
+files.each do |f|
   next if File.basename(f) =~ /\A(Scripts|xScripts|xIseq)\.rxdata\z/
   begin
     obj = rx_load(f)
   rescue StandardError => e
-    warn "SKIP #{f}: #{e.class}: #{e.message[0, 80]}"
+    warn "SKIP #{f}: #{e.class}"
     next
   end
   base = File.basename(f, '.rxdata')
