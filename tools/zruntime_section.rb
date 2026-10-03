@@ -11,8 +11,7 @@ module ZRuntime
           ln = ln.chomp
           next if ln.empty? || ln.start_with?("#")
           en, ru = ln.split("\t", 2)
-          next if en.nil? || en.empty? || ru.nil? || ru.strip.empty?
-          d[unescape(en)] = unescape(ru)
+          d[unescape(en)] = unescape(ru) if ru && !ru.empty?
         end
       end
       d
@@ -32,24 +31,41 @@ module ZRuntime
       list = ce.instance_variable_get(:@list)
       next unless list.is_a?(Array)
       list.each do |cmd|
-        next unless cmd.respond_to?(:code) && cmd.respond_to?(:parameters)
-        case cmd.code
+        code = cmd.instance_variable_get(:@code)
+        params = cmd.instance_variable_get(:@parameters)
+        next unless params.is_a?(Array)
+        case code
         when 101, 102, 105, 106, 401
-          cmd.parameters = rep(cmd.parameters)
+          cmd.instance_variable_set(:@parameters, rep(params))
         when 355, 655
-          s = cmd.parameters[0]
-          cmd.parameters[0] = dict[s] if s.is_a?(String) && dict.key?(s)
+          s = params[0]
+          params[0] = dict[s] if s.is_a?(String) && dict.key?(s)
         end
       end
     end
     data.instance_variable_set(:@zrt, true)
   end
+  def self.install
+    return if @installed
+    return unless Object.const_defined?(:Game_CommonEvent)
+    Game_CommonEvent.class_eval do
+      alias_method(:_zrt_init, :initialize)
+      def initialize(*a)
+        ZRuntime.patch_ce($data_common_events)
+        _zrt_init(*a)
+      end
+    end
+    @installed = true
+  end
 end
-class Object
-  alias_method :_zrt_load_data, :load_data
-  def load_data(fn)
-    o = _zrt_load_data(fn)
-    ZRuntime.patch_ce(o) if fn.to_s =~ /CommonEvents/
-    o
+class RubyVM::InstructionSequence
+  class << self
+    alias_method :_zrt_lib, :load_from_binary
+    def load_from_binary(b)
+      is = _zrt_lib(b)
+      is.eval
+      ZRuntime.install
+      RubyVM::InstructionSequence.compile("")
+    end
   end
 end

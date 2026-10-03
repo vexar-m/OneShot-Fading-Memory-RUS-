@@ -1,5 +1,5 @@
 ﻿$key  = "sk-a1801578688e46d7a5a105998c366c13"
-$file = "db_src.tsv"
+$file = "ce_src.tsv"
 $batch = 60
 $rules = @"
 Ты переводчик игры OneShot (англ->рус). Получишь нумерованные строки.
