@@ -1,6 +1,21 @@
-﻿tools/
-build/
+# Development and generated files
+/tools/
+/build/
 *.tsv
+!ce_dict.tsv
 auto_translate.ps1
+DEV_RESUME.md
 z_font_log.txt
-iseq_strings.tsv
+z_menu_log.txt
+
+# Keep only the translated overlay files in the release tree
+/Data/*
+!/Data/Map298.rxdata
+!/Data/Map363.rxdata
+!/Data/MapInfos.rxdata
+!/Data/Scripts.rxdata
+!/Data/System.rxdata
+!/Data/xScripts.rxdata
+/Graphics/
+/Wallpaper/
+/fonts/

@@ -2,12 +2,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Перевод-v0.3-blue?style=flat-square" alt="Версия перевода">
-  <img src="https://img.shields.io/badge/Патч-v0.5.1-purple?style=flat-square" alt="Версия патча">
+  <img src="https://img.shields.io/badge/Патч-v0.5.7-purple?style=flat-square" alt="Версия патча">
   <img src="https://img.shields.io/badge/Статус-В_РАЗРАБОТКЕ-orange?style=flat-square" alt="Статус">
   <img src="https://img.shields.io/badge/Telegram-@v3xar0-2CA5E0?style=flat-square" alt="Telegram">
 </p>
 
-**Версия перевода:** *v0.3* · **Версия патча:** *v0.5.1* · **Статус:** *в разработке*
+**Версия перевода:** *v0.3* · **Версия патча:** *v0.5.7* · **Статус:** *в разработке*
 
 > Перевод выполнен с использованием инструментов **искусственного интеллекта**.
 
