@@ -39,6 +39,16 @@ block in saveE	block in saveE
 Settings	Настройки
 Start	Начать
 + Start	+ Начать
+Wake up	Проснуться
+OFF	ВЫКЛ.
+ON	ВКЛ.
+BGM VOLUME	ГРОМКОСТЬ МУЗЫКИ
+SFX VOLUME	ГРОМКОСТЬ ЭФФЕКТОВ
+AMB VOLUME	ГРОМКОСТЬ ОКРУЖЕНИЯ
+MENU_DECISION	РЕШЕНИЕ
+MENU_CANCEL	ОТМЕНА
+MENU_CURSOR	КУРСОР
+MENU_BUZZER	ОШИБКА
 settings	settings
 UWarning! Character to move does not exist!	UВнимание! Персонаж для перемещения не существует!
 wWarning! Path Finder could not find path for character at (	wВнимание! Поиск пути не смог найти путь для персонажа в (
@@ -231,12 +241,14 @@ start	начать
 By some miracle of the oneshot save system your memory run has not been wiped please help im in pain	Каким-то чудом система сохранений oneshot не стёрла твою память, прошу помоги мне больно
 By some miracle you STILL have a memory save even though I wiped it. I don't know what went wrong but holy fuck im not dealing with this now	Каким-то чудом у тебя ВСЁ ЕЩЁ есть сохранение памяти, хотя я его стёр. Не знаю, что пошло не так, но чёрт возьми, я не буду с этим разбираться сейчас
 Go to debug?	Перейти в отладку?
+Proceed?	Продолжить?
 Something has gone terribly wrong and the game is in an invalid state. Please contact the developer immediately.	Что-то пошло ужасно не так, и игра находится в недопустимом состоянии. Пожалуйста, немедленно свяжитесь с разработчиком.
-Darker light	Darker light
+Darker light	Мрачный свет
 !You killed Niko.	!Ты убил Нико.
 Sometimes I dream of the past, of what we've been through together.	Иногда мне снится прошлое, то, через что мы прошли вместе.
 iThis is a version of oneshot with a 45 minute timer.	iЭто версия oneshot с таймером на 45 минут.
 Failure to reach the summit within 45 minutes will result in termination.E	Неудача в достижении вершины в течение 45 минут приведёт к завершению.E
+Failure to reach the summit within 45 minutes will result in termination.	Неудача в достижении вершины в течение 45 минут приведёт к завершению.
 iThis is a version of oneshot with a 35 minute timer.	iЭто версия oneshot с таймером на 35 минут.
 Failure to reach the summit within 35 minutes will result in termination.	Неудача в достижении вершины в течение 35 минут приведёт к завершению.
 block in main	блок в main
@@ -247,6 +259,9 @@ Yet one more time shouldn't hurt...	Ещё раз не повредит...
 GYet one more time shouldn't hurt...	GЕщё раз не повредит...
 EDwell on the past (replay vanilla)	EЗастрять в прошлом (переиграть оригинал)
 9Then I shall sleep longer...	9Тогда я посплю подольше...
+Then I shall sleep longer...	Тогда я посплю подольше...
+;Then it is time to wake up...	;Пора просыпаться...
+Then it is time to wake up...	Пора просыпаться...
 Mtwilight bridge before the thing loops	Mсумеречный мост перед тем, как всё зациклится
 aYou cannot perform this action during cutscenes.	aВы не можете выполнить это действие во время катсцен.
 block in mainG	block in mainG
