@@ -1,6 +1,7 @@
 /tools/
 /build/
 *.tsv
+!ui_dict.tsv
 auto_translate.ps1
 sync_overlay.ps1
 DEV_RESUME.md

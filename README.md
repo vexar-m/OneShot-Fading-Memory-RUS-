@@ -2,12 +2,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Перевод-v0.4-blue?style=flat-square" alt="Версия перевода">
-  <img src="https://img.shields.io/badge/Патч-v0.6.1-purple?style=flat-square" alt="Версия патча">
+  <img src="https://img.shields.io/badge/Патч-v0.6.3-purple?style=flat-square" alt="Версия патча">
   <img src="https://img.shields.io/badge/Статус-В_РАЗРАБОТКЕ-orange?style=flat-square" alt="Статус">
   <img src="https://img.shields.io/badge/Telegram-@v3xar0-2CA5E0?style=flat-square" alt="Telegram">
 </p>
 
-**Версия перевода:** *v0.4* · **Версия патча:** *v0.6.1* · **Статус:** *в разработке*
+**Версия перевода:** *v0.4* · **Версия патча:** *v0.6.3* · **Статус:** *в разработке*
 
 > Перевод выполнен с использованием инструментов **искусственного интеллекта**.
 
@@ -15,12 +15,12 @@
 
 ## 📦 Установка
 
-1. Скопируйте из корня репозитория каталоги `Data`, `Fonts` и `Graphics` в корневую папку мода **с заменой файлов**.
+1. Скопируйте из корня репозитория каталоги `Data`, `Fonts`, `Graphics` и файл `ui_dict.tsv` в корневую папку мода **с заменой файлов**.
 2. Запустите игру через стандартный лаунчер (`steamshim.exe` или через **Steam**).
 
 > ⚠️ *Перед установкой рекомендуется сделать резервную копию папки с игрой.*
 
-> Для runtime-перевода Common Events и UI нужен `ui_dict.tsv`. Этот файл не хранится в публичном репозитории, поэтому одна копия репозитория не содержит его.
+> `ui_dict.tsv` — обязательный runtime-словарь для Common Events и UI; он входит в этот комплект русификатора.
 
 ---
 
