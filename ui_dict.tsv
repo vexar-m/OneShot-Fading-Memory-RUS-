@@ -37,6 +37,8 @@ rescue in load	rescue in load
 KFailed parsing settings. Resetting...	KНе удалось разобрать настройки. Сброс...
 block in saveE	block in saveE
 Settings	Настройки
+Start	Начать
++ Start	+ Начать
 settings	settings
 UWarning! Character to move does not exist!	UВнимание! Персонаж для перемещения не существует!
 wWarning! Path Finder could not find path for character at (	wВнимание! Поиск пути не смог найти путь для персонажа в (
